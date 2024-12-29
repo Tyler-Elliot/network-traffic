@@ -31,14 +31,19 @@ In this tutorial, we use Wireshark to examine the flow of network traffic betwee
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4kyeCRY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-    Install Wireshark/Download Wireshark
+    Download Wireshark/Install Wireshark
 
 -Go to Wireshark Download Page.
 
 -Select the installer for your operating system (Windows, macOS, or Linux).
+
+<p>
+<img src="https://i.imgur.com/nToDEO7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 Run the Installer
 
@@ -72,17 +77,12 @@ Begin Capture
 
 -Wireshark will begin displaying live packets in the capture window.
 
-Capture Duration
 
--Let the capture run for a short period (e.g., a few minutes) while you browse the internet or use other network-based applications.
-
-
-(This ensures you collect enough packets for observation)
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vQ34gEV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
    Observe Traffic
@@ -97,6 +97,11 @@ Apply Basic Filters
 
 (This helps you zoom in on interesting traffic such as HTTP, HTTPS, DNS, etc)
 
+<p>
+<img src="https://i.imgur.com/mZv34ty.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 Analyze Packet Details
 
 -Attempt to Ping you Linux VM
@@ -108,7 +113,7 @@ Analyze Packet Details
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZRMZi9O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Set Up Network Security Group / Add Firewall Rule
@@ -133,7 +138,7 @@ Confirm the Configuration
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yZWukeA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Observe Traffic After Firewall
